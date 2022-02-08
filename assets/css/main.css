@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header-section {
+
+  background-image: url(../img/home-img-2.jpg);
+  height: 100vh;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1.5;
+  background-attachment: fixed;
+}
+
+.head {
+
+  align-items: center;
+  color: white;
+  font-weight: lighter;
+
+  font-family: 'Metal Mania', cursive;
+  text-align: center;
+}
+
+.profile-img {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  padding-top: 5%;
+}
+
+.img {
+  width: 30vh;
+  height: 30vh;
+  clip-path: circle();
+
+}
+
+.img:hover {
+  opacity: 0.8;
+}
+
+.nav-section {
+  display: flex;
+  float: right;
+  margin: auto;
+}
+
+.navbar-links:hover {
+  background-color: rgb(255, 68, 68);
+  color: white;
+  border-radius: 5px;
+
+
+}
+
+.navbar-links {
+  margin: 10px 7px;
+  padding: 2px;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: white;
+  font-weight: lighter;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.btn {
+  color: white;
+  background-color: transparent;
+  border-color: red;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 17px;
+  font-family: arial narrow;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+#about-section {
+  width: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+
+}
+
+.about-img {
+  width: 70%;
+}
+
+.img-fluid {
+  height: 50vh;
+  width: 70vh;
+}
+
+.about-info {
+  padding-top: 30px;
+  width: 50%;
+  font-weight: 500;
+  color: black;
+  font-size: 21px;
+  font-family: 'Hina Mincho', serif;
+  text-align: justify;
+}
+
+.info-head {
+  padding-bottom: 3px;
+  font-weight: lighter;
+  font-family: serif;
+  font-size: 30px;
+}
+
+.card-components {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 55px;
+}
+
+.card-btn {
+  padding: 8px;
+  color: white;
+  background-color: rgb(47, 47, 255);
+  border: none;
+  border-radius: 5px;
+
+}
+
+.card {
+
+  margin: 0px 35px;
+  box-shadow: 2px 5px 10px 1px #8f8f8f62;
+  border-radius: 5px;
+  width: 30%;
+
+}
+
+.head-img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 30vh;
+  width: 100%;
+}
+
+.card-head {
+  text-align: center;
+  font-weight: lighter;
+  font-family: sans-serif;
+
+}
+
+.card-info {
+  text-align: justify;
+  padding: 5px;
+}
+
+.information {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+
+
+.about-btn {
+  background-color: transparent;
+  border-color: black;
+  padding: 5px;
+}
+
+#main-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-head {
+  text-align: center;
+  font-family: serif;
+  font-weight: lighter;
+}
+
+.icon {
+  width: 80px;
+}
+
+.icon-img {
+  display: flex;
+  justify-content: center;
+}
+
+.project-head{
+  text-align: center;
+  font-family: serif;
+  font-weight: lighter;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 60%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .card-components {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+
+
+  .card {
+    width: 100%;
+    justify-content: center;
+    margin: 20px 0px;
+  }
+
+  #about-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-img {
+    display: flex;
+    justify-content: center;
+    margin: 0px 50px;
+  }
+
+  .img-fluid {
+    width: 150%;
+
+  }
+
+  .about-info {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .icon {
+    width: 50px;
+  }
+
+  .icon-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-section {
+    background-size: cover;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  
+
+
+
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.4;
+    text-decoration: none;
+}
+
+.background-img{
+    background-image: url("../img/pexels-hasan-albari-1229861.jpg");
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    background-position:center;
+}
+
+.heading{
+   display: flex;
+   justify-content: center;
+   padding-top: 30px;
+}
+
+.header{
+    font-family: serif;
+    font-weight: lighter;
+    font-size: 55px;
+    color: white;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.about{
+    font-family: 'Hina Mincho', serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    width: 70%;
+}
+
+#main-icons{
+    display: flex;
+    justify-content: center;
+  }
+
+.icon{
+    width: 80px;
+    margin: 25px 0px;
+}
+  
+.icon-img{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .about{
+        font-size: 21px;
+        width: 90%;
+    }
+
+    .icon{
+        width: 50px;
+    }
+      
+    .icon-img{
+        display: flex;
+        justify-content: center;
+      }
+}
+
